@@ -35,13 +35,13 @@ task wrapper(type: Wrapper) {
 }
 
 war {
-  baseName = 'spittr'
+  baseName = 'ch9_Spittr-Thymeleaf'
 }
 
 eclipse {
   wtp {
     component {
-      contextPath = 'spittr'
+      contextPath = 'ch9_Spittr-Thymeleaf'
     }
   }
 }
